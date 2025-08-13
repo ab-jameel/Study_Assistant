@@ -1,0 +1,13 @@
+# Core app
+streamlit
+
+# LangChain components
+langchain
+langchain-community
+langchain-text-splitters
+langchain-chroma
+langchain-ollama
+
+# File processing
+python-pptx     # For reading .pptx and .pptm files
+pypdf           # For PDF parsing
