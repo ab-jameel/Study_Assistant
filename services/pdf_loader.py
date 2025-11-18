@@ -1,6 +1,6 @@
 # Import necessary libraries
 import os
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pptx import Presentation
