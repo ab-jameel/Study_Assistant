@@ -2,8 +2,8 @@
 streamlit
 
 # LangChain components
-langchain
-langchain-community
+langchain==0.2.12
+langchain-community==0.2.12
 langchain-text-splitters
 langchain-chroma
 langchain-ollama
@@ -12,5 +12,4 @@ langchain-ollama
 python-pptx     # For reading .pptx and .pptm files
 pypdf           # For PDF parsing
 
-langchain==0.2.12
-langchain-community==0.2.12
+
