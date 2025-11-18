@@ -2,7 +2,7 @@
 from langchain_chroma import Chroma
 from langchain_community.embeddings import OllamaEmbeddings  # Corrected import path
 from langchain_ollama import OllamaLLM
-from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains.combine_documents.stuff import create_stuff_documents_chain
 from langchain_core.prompts import PromptTemplate
 # -------------------------------------------------------
 # Create an embeddings model to convert text into vectors
