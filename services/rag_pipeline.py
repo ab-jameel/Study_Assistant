@@ -2,7 +2,7 @@
 from langchain_chroma import Chroma
 from langchain_community import embeddings
 from langchain_ollama import OllamaLLM
-from langchain.chains.question_answering import load_qa_chain
+from langchain_community.chains import load_qa_chain
 
 # -------------------------------------------------------
 # Create an embeddings model to convert text into vectors
