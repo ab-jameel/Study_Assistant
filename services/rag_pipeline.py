@@ -1,6 +1,6 @@
 # Import necessary libraries
 from langchain_chroma import Chroma
-from langchain_community.embeddings import OllamaEmbeddings  # Corrected import path
+from langchain_community.embeddings import OllamaEmbeddings
 from langchain_ollama import OllamaLLM
 from langchain.chains.combine_documents.stuff import create_stuff_documents_chain
 from langchain_core.prompts import PromptTemplate
